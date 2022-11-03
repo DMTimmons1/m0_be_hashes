@@ -119,3 +119,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+{
+  sender: "DawsonTimmons@gmail.com",
+  name: "Dawson",
+  subject: "School",
+  date: "10/23/2022",
+  is_spam: false
+},
+{
+  sender: "Randomemail@random.org",
+  name: "Random",
+  subject: "guess what? it's random!",
+  date: "07/15/2022",
+  is_spam: true
+},
+{
+  sender: "Boston@gmail.com",
+  name: "Boston",
+  subject: "Overwatch",
+  date: "11/03/2022",
+  is_spam: false
+}
+]
+
+puts emails
